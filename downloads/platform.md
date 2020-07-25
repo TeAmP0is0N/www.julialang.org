@@ -82,7 +82,7 @@ It is strongly recommended that the official generic binaries from the downloads
 
 The generic Linux and FreeBSD binaries do not require any special installation steps, but you will need to ensure that your system can find the `julia` executable.
 
-First, download the `.tar.gz` file from the [downloads page](/downloads/). You need to extract this file to a suitable location. To extract the file, you can use the following command:
+First, download the `.tar.gz` file from the [downloads page](/downloads/). Most users would prefer the `glibc` version of the distribution unless you know that your system uses `musl`. You need to extract this file to a suitable location. To extract the file, you can use the following command:
 
 ```
 tar -xvzf julia-x.y.z-linux-x86\_64.tar.gz
@@ -168,6 +168,16 @@ Recent Debian/ubuntu distributions include their own build of Julia, which can b
 
 ```
 sudo apt install julia
+```
+
+## Arch Linux
+The Arch User Repository has [a package for Julia](https://aur.archlinux.org/packages/julia-bin) that is built from the official binaries of Julia. To install it run:
+
+```
+sudo pacman -S base-devel git
+git clone https://aur.archlinux.org/julia-bin.git
+cd julia-bin
+makepkg -si
 ```
 
 ## FreeBSD Ports

@@ -3,7 +3,7 @@
 <head>
   {{insert meta.html}}
   {{insert head_scripts.html}}
-  <title>The Julia Language</title>
+  <title>The Julia Programming Language</title>
 	<link rel="icon" href="/assets/infra/julia.ico">
 </head>
 
@@ -12,12 +12,12 @@
     <div class="alert alert-dark alert-dismissible mb-0" role="alert">
       <!-- Only this <p> element should be changed in an alert -->
       <p class="text-center">
-        JuliaCon is online and free this year. <a href="https://juliacon.org/2020/tickets/">Register now</a> for JuliaCon 2020!
-			</p>
-			<!-- Nothing more! -->
-			<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-				<span aria-hidden="true">&times;</span>
-			</button>
+	      JuliaCon is <a href="https://live.juliacon.org/live">live now!</a> JuliaCon 2020 is free and live now: <a href="https://juliacon.org/2020/tickets/">Register here</a>!
+      </p>
+      <!-- Nothing more! -->
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+	<span aria-hidden="true">&times;</span>
+      </button>
     </div>
   </div>
 
@@ -36,7 +36,7 @@
       </h2>
 
       <p>
-      <a class="btn btn-success btn-lg" href="/downloads/" role="button">Download</a>
+      <a class="btn btn-success btn-lg" href="/downloads/" role="button">Download v{{stable_release}}</a>
       &nbsp;
       <a class="btn btn-primary btn-lg" href="https://docs.julialang.org" role="button">Documentation</a>
       <span class="btn float-md-right">
@@ -196,7 +196,8 @@
                 The <a href="https://github.com/jeff-regier/Celeste.jl">Celeste.jl </a> project <a href = "https://arxiv.org/pdf/1801.10277.pdf" title = "PDF paper on Cataloging the Visible Universe through Bayesian Inference at Petascale hosted on arxiv.org"> achieved 1.5 PetaFLOP/s</a> on the <a href="https://cs.lbl.gov/news-media/news/2016/celeste-enhancements-create-new-opportunities-in-sky-surveys/">Cori supercomputer at NERSC</a> using 650,000 cores.
                 </p>
                 <p>
-                The Julia compiler can also generate native code for various hardware accelerators, such as <a href = "https://github.com/JuliaGPU/CUDAnative.jl">GPUs</a> and Xeon Phis. Packages such as <a href="https://github.com/JuliaParallel/DistributedArrays.jl">DistributedArrays.jl</a> and <a href="https://github.com/JuliaParallel/Dagger.jl">Dagger.jl</a> provide higher levels of abstraction for parallelism.
+                The Julia compiler can also generate native code for <a href="https://juliagpu.org">GPUs</a>. Packages such as <a href="https://github.com/JuliaParallel/DistributedArrays.jl">DistributedArrays.jl</a> and <a href="https://github.com/JuliaParallel/Dagger.jl">Dagger.jl</a> provide higher levels of abstraction for parallelism.
+		Distributed Linear Algebra is provided by packages like <a href="https://github.com/JuliaParallel/Elemental.jl">Elemental.jl</a> and <a href="https://github.com/JuliaLinearAlgebra/TSVD.jl">TSVD.jl</a>.
                 </p>
               </div>
             </div>
@@ -402,9 +403,9 @@ end
 
       <br>
 
-      <p>Julia has been downloaded over 13 million times and the Julia community has registered over 3,000 Julia packages for community use.
+      <p>Julia has been downloaded over 13 million times and the Julia community has registered <a href="https://juliahub.com">over 3,500 Julia packages</a> for community use.
       These include various mathematical libraries, data manipulation tools, and packages for general purpose computing. In addition to these, you can easily use libraries from <a href="https://github.com/JuliaPy/PyCall.jl">Python</a>, <a href="https://github.com/JuliaInterop/RCall.jl">R</a>, <a href="https://docs.julialang.org/en/v1/manual/calling-c-and-fortran-code/#Calling-C-and-Fortran-Code-1">C/Fortran</a>, <a href="https://github.com/Keno/Cxx.jl">C++</a>, and <a href="https://github.com/JuliaInterop/JavaCall.jl">Java</a>.
-      If you do not find what you are looking for, ask on <a href="https://discourse.julialang.org">Discourse</a>, or even better, contribute!</p>
+      If you do not find what you are looking for, ask on <a href="https://discourse.julialang.org">Discourse</a>, or even better, <a href="https://julialang.github.io/Pkg.jl/v1/">contribute one</a>!</p>
 
       <br><br>
 
@@ -641,10 +642,10 @@ end
         </div>
         <div class="col-lg-3 col-md-6 ide ide-feature">
           <h3>GPUs</h3>
-		  	<a href="https://github.com/JuliaGPU" target="_blank">
+		  	<a href="https://juliagpu.org/" target="_blank">
             <img src="/assets/infra/gpu.png" height="85" width="85" alt="Julia GPU Logo" /></a>
           <h4 class="outer-link">
-            <a class="link extra-link" href="https://github.com/JuliaGPU" target="_blank">JuliaGPU</a>
+            <a class="link extra-link" href="https://juliagpu.org/" target="_blank">JuliaGPU</a>
           </h4>
         </div>
       </div>

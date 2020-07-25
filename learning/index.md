@@ -11,13 +11,12 @@
 
 ## Video
 
-Jupyter notebooks are available for the following YouTube tutorials over at the [JuliaBoxTutorials](https://github.com/JuliaComputing/JuliaBoxTutorials) repository on GitHub.
+Jupyter notebooks are available for the following YouTube tutorials over at the [JuliaTutorials](https://github.com/JuliaAcademy/JuliaTutorials) repository on GitHub.
 
 @@tight-list
 * [Intro to Julia (version 1.0)](https://www.youtube.com/watch?v=8h8rQyEpiZA&amp;t) , by Jane Herriman
 * [Intro to Julia for data science](https://youtu.be/SLE0vz85Rqo), by Huda Nassar
 * [Intro to the Queryverse, a Julia data science stack](https://www.youtube.com/watch?v=OFPNph-WxLM), by David Anthoff
-* [Intro to Julia Data Frames](https://www.youtube.com/watch?v=0-Xsts_s5W), by Bogumił Kamiński
 * [Intro to dynamical systems in Julia](https://www.youtube.com/watch?v=13hqE_1a158), by George Datseris
 * [Introducción a Julia en español](https://youtu.be/LbTbs-0pOuc), by Miguel Raz Guzmán
 * [Intro to JuliaDB, a package for working with large persistent data sets](https://www.youtube.com/watch?v=d5SzUh2_ono), by Josh Day and Shashi Gowda
@@ -249,6 +248,8 @@ If you know of other classes using Julia for teaching, please consider [updating
     * [IFT3245](https://admission.umontreal.ca/cours-et-horaires/cours/IFT-3245/), Simulation et modèles (Prof. [Fabian Bastin](https://www.iro.umontreal.ca/~bastin/)), Fall 2017
     * [IFT3515](https://admission.umontreal.ca/cours-et-horaires/cours/IFT-3515/), Optimisation non linéaire (Prof. [Fabian Bastin](https://www.iro.umontreal.ca/~bastin/)), Winter 2017-2018
     * [IFT6512](https://admission.umontreal.ca/cours-et-horaires/cours/IFT-6512/), Programmation stochastique (Prof. [Fabian Bastin](https://www.iro.umontreal.ca/~bastin/)), Winter 2018
+* University of Washington
+    * [AMATH 586](https://trogdoncourses.github.io/amath-586-2020/), Numerical analysis of time-dependent problems (Prof. [Tom Trogdon](http://faculty.washington.edu/trogdon/)), Spring 2020
 * Western University Canada
     * [CS 2101A](https://www.csd.uwo.ca/~moreno/cs2101a_moreno/index.html), Foundations of Programming for High Performance Computing. (Prof. Marc Moreno Maza), Fall 2013
 @@
